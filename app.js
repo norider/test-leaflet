@@ -15,3 +15,7 @@ var osm_mapnik = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
 	attribution: '&copy; OSM Mapnik <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
+L.marker([35.707682, 139.703683]).addTo(map)
+    .bindPopup('ぼくは<br>ココだよ！')
+    .openPopup();
+
