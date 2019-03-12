@@ -1,6 +1,10 @@
+html, body {
+  height: 100%;
+}
+
 #map
 {
     width: auto;
-    height: 500px;
+    height: 100%;
 }
 
